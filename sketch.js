@@ -73,13 +73,13 @@ export default function BladeeGame() {
           }
 
           p.preload = function() {
-            // Load sound files here (before setup runs)
-            // bladeeImg1 = p.loadImage('bladeee2.jpg');
-            // bladeeImg2 = p.loadImage('Bladeee1.jpg');
-            // win1 = p.loadSound('cute_scream.wav');
-            // win2 = p.loadSound('cute_music.mp3');
-            // lose1 = p.loadSound('scary_voice.ogg');
-            // lose2 = p.loadSound('Distorted_noize.wav');
+            Load sound files here (before setup runs)
+            bladeeImg1 = p.loadImage('bladeee2.jpg');
+            bladeeImg2 = p.loadImage('Bladeee1.jpg');
+            win1 = p.loadSound('cute_scream.wav');
+            win2 = p.loadSound('cute_music.mp3');
+            lose1 = p.loadSound('scary_voice.ogg');
+            lose2 = p.loadSound('Distorted_noize.wav');
           }
 
           p.setup = function() {
